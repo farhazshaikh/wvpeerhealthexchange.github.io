@@ -2348,7 +2348,8 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background: #6e6570;
+			background: #37c9f9;
+			color:#ED4337;
 		}
 
 		input[type="submit"]:active,
@@ -2544,7 +2545,7 @@
 
 			#header a:hover {
 				border-bottom-color: transparent;
-				color: #4eb980;
+				color: #37c9f9;
 			}
 
 		#header strong, #header b {
@@ -2559,12 +2560,17 @@
 		#header input[type="reset"],
 		#header input[type="button"],
 		#header .button {
-			background: #ffffff;
-			color: #544d55;
+			background: #544d55;
+			color: white;
 		}
+			#header .button:hover {
+				background: #37c9f9;
+				color: #ED4337;
+			}
+
 
 		#header .logo {
-			background: #4eb980;
+			background: #ED4337;
 			border-radius: 100%;
 			color: #ffffff;
 			cursor: default;
@@ -2577,8 +2583,8 @@
 			width: 2.35em;
 		}
 
-			#header .logo.fa-paper-plane-o:before {
-				left: -0.075em;
+			#header .logo.fa-plus:before {
+				/*left: -0.075em;*/
 				position: relative;
 			}
 
